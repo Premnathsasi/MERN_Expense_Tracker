@@ -1,0 +1,34 @@
+.container {
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+}
+.container h2 {
+  text-align: center;
+}
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  padding: 5px 10px;
+  margin: 10px;
+  border: none;
+  background-color: brown;
+  color: aliceblue;
+}
+
+.downloadLink {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadLink div {
+  margin: 5px;
+}
+
+.downloadLink div a {
+  margin: 25px;
+}

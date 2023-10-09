@@ -1,0 +1,88 @@
+.navbar {
+  background: rgb(126, 126, 134);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.title {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.title h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.premium {
+  border: none;
+  background-color: rgb(47, 210, 210);
+  padding: 7px 10px;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logout {
+  border: none;
+  background-color: rgb(21, 92, 214);
+  padding: 7px 15px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.premium:hover {
+  background-color: rgb(12, 162, 162);
+}
+
+.logout:hover {
+  background-color: rgb(67, 121, 214);
+}
+
+.leaderboard {
+  cursor: pointer;
+  padding: 10px 15px;
+  background: #2c0052;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+.leaderboard:hover {
+  transform: scale(1.1);
+}
+
+.dbtn {
+  cursor: pointer;
+  width: 45px;
+  margin-left: 5px;
+}
+
+@media (max-width: 662px) {
+  .navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+  .navbar div {
+    padding: 10px;
+  }
+
+  .navbar button {
+    height: 35px;
+  }
+  body {
+    scroll-behavior: smooth;
+    overflow: scroll;
+  }
+}
